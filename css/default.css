@@ -1,0 +1,47 @@
+#map{
+	height: 100%;
+}
+
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+div{
+	margin: 0;
+	padding: 0;
+}
+
+.high{
+	height: 100%;
+}
+
+label, input{
+	margin-bottom: 5px;
+	display: inline;
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav, .navbar, .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav, .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav, .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav, .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}
